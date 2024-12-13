@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Liên hệ</h1>
+
+<form action="" autocomplete="off">
+  <div>
+    <label for="username">Tên của bạn</label><br />
+    <input 
+    	type="text" 
+      name="name" 
+    	id="name" 
+    	placeholder="Nhập tên..."  required
+    />
+  </div>
+  <br />
+  <div>
+    <label for="email">Email</label><br />
+    <input 
+    	type="email" 
+      name="email" 
+      id="email" 
+      placeholder="Nhập email..."
+      required
+    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+    />
+  </div>
+  <br />
+   <div>
+    <label for="phone">Số điện thoại</label><br />
+    <input 
+    	type="tel" 
+      name="phone" 
+      id="phone" 
+      placeholder="Nhập số điện thoại..."  required
+    />
+  </div>
+  <br />
+  <button type="submit">Gửi đi</button>
+</form>
+</body>
+</html>
